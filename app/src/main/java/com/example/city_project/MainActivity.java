@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 
+import org.osmdroid.config.Configuration;
 import org.osmdroid.tileprovider.tilesource.OnlineTileSourceBase;
 import org.osmdroid.tileprovider.tilesource.TileSourceFactory;
 import org.osmdroid.util.GeoPoint;
@@ -19,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        Configuration.getInstance().setUserAgentValue(BuildConfig.APPLICATION_ID);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
