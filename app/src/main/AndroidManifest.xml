@@ -20,11 +20,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.15MinCity">
+        <activity android:name=".ui.Activity.TakePhotoActivity"></activity>
         <activity
-            android:name=".ui.fragment.NaviActivity"
+            android:name=".ui.Activity.SurveyActivity"
+            android:theme="@style/NoTitle" />
+        <activity
+            android:name=".ui.Activity.RegisterActivity"
+            android:theme="@style/NoTitle" />
+        <activity
+            android:name=".ui.Activity.NaviActivity"
             android:label="@string/title_activity_navi" />
         <activity
-            android:name=".ui.fragment.LaunchActivity"
+            android:name=".ui.Activity.LaunchActivity"
             android:theme="@style/AppSplash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

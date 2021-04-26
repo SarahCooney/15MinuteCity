@@ -1,4 +1,4 @@
-package com.mainCity.ui.fragment;
+package com.mainCity.ui.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,6 +9,10 @@ import android.os.Handler;
 import com.mainCity.R;
 import com.mainCity.ui.login.LoginActivity;
 
+/**
+ * This is the launch activity that will launch when the app is opened.
+ * I added a nice background image to show up and it can make the app launch loading looks better.
+ */
 public class LaunchActivity extends AppCompatActivity {
 
     @Override

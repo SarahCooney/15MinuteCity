@@ -9,8 +9,52 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
-    <string name="title_activity_navi">MainActivity</string>
+    <string name="title_activity_navi">Map</string>
     <string name="title_map">Map</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_missions">Missions</string>
+    <string name="title_me">Me</string>
+
+    <string-array name="age_select">
+        <item>Select</item>
+        <item>Under 16 years old</item>
+        <item>16–30 years old</item>
+        <item>31–50 years old</item>
+        <item>51–75 years old</item>
+        <item>75 years or older</item>
+    </string-array>
+
+    <string-array name="edu_select">
+        <item>Select</item>
+        <item>Master’s degree or above</item>
+        <item>Bachelor’s degree</item>
+        <item>High school graduate</item>
+        <item>Middle school or below</item>
+    </string-array>
+
+    <string-array name="marr_select">
+        <item>Select</item>
+        <item>Married</item>
+        <item>Divorced</item>
+        <item>Widowed</item>
+        <item>Separated</item>
+        <item>Single</item>
+    </string-array>
+
+    <string-array name="Employ_select">
+        <item>Select</item>
+        <item>Employed / Self-employed</item>
+        <item>Looking for work</item>
+        <item>Retired</item>
+        <item>Student</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="Ethnic_select">
+        <item>Select</item>
+        <item>White</item>
+        <item>Hispanic or Latino</item>
+        <item>Black or African American</item>
+        <item>Asian / Pacific Islander</item>
+        <item>Other</item>
+    </string-array>
 </resources>

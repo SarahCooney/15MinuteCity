@@ -12,14 +12,14 @@
         tools:layout="@layout/fragment_map" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.mainCity.ui.fragment.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        android:id="@+id/navigation_missions"
+        android:name="com.mainCity.ui.fragment.missions.MissionsFragment"
+        android:label="@string/title_missions"
+        tools:layout="@layout/fragment_Missions" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.mainCity.ui.fragment.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_me"
+        android:name="com.mainCity.ui.fragment.me.MeFragment"
+        android:label="@string/title_me"
+        tools:layout="@layout/fragment_me" />
 </navigation>

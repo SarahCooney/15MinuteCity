@@ -1,16 +1,14 @@
-package com.mainCity.ui.fragment.map;
+package com.mainCity.ui.fragment.missions;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class MapViewModel extends ViewModel {
+public class MissionsViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public MapViewModel() {
-//        mText = new MutableLiveData<>();
-//        mText.setValue("This is map fragment");
+    public MissionsViewModel() {
     }
 
     public LiveData<String> getText() {

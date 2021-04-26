@@ -1,16 +1,16 @@
-package com.mainCity.ui.fragment.dashboard;
+package com.mainCity.ui.fragment.me;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class DashboardViewModel extends ViewModel {
+public class MeViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public DashboardViewModel() {
-        mText = new MutableLiveData<>();
-        mText.setValue("This is dashboard fragment");
+    public MeViewModel() {
+//        mText = new MutableLiveData<>();
+//        mText.setValue("This is notifications fragment");
     }
 
     public LiveData<String> getText() {
